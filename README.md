@@ -145,6 +145,18 @@ OLD run with 9 features
 - Libraries: `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `seaborn` , `warnnings` 
 
 ### Setup
+# Mini Project - Is The World Ready For The Next Pandemic
+
+## הוראות להרצת הקוד (עבור המרצה)
+
+בשל גודלם של קובצי הנתונים, התיקייה `data` אינה נמצאת בתוך מאגר ה-GitHub. כדי להריץ את הקוד בהצלחה, אנא פעל לפי הצעדים הבאים:
+
+1. **הורד את הקוד:** הורד את קובץ ה-`.py` מהמאגר הזה למחשב שלך.
+2. **הורד את הנתונים:** לחץ על הקישור הבא והורד את תיקיית ה-`data` המלאה מהגוגל דרייב:  
+   [לחץ כאן להורדת תיקיית ה-data המלאה](הדביקי_כאן_את_הקישור_שהעתקת_מגוגל_דרייב)
+3. **מיקום הקבצים:** ודא שתיקיית ה-`data` שחולצה נמצאת באותו המקום (באותה תיקיית אב) שבה שמרת את קובץ ה-`.py`.
+4. **התקנת ספריות:** הרץ בטרמינל את הפקודה: `pip install -r requirements.txt`
+5. **הרצה:** כעת ניתן להריץ את קובץ ה-`.py` והקוד יקרא את הנתונים בצורה חלקה!
 
 ### Comment
 - Due to technical issues, instructions how to execute the notebooks and the actual py files will be provided later on.
