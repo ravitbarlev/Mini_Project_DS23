@@ -42,7 +42,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Set the path where your DataSet CSVs located.
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 
 # Load the standard/smaller files
 country_index = pd.read_csv(data_dir + "country Index.csv")
@@ -78,7 +78,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATH
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 
 input_filename = "country Index.csv"
 output_filename = "Country_Ind_md.csv"
@@ -151,7 +151,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 
 country_file = "Country_Ind_md.csv"
 demo_file = "demographics.csv"
@@ -226,7 +226,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 
 country_file = "Country_Ind_md.csv"
 health_file = "health.csv"
@@ -305,7 +305,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 
 input_file = "WHO-COVID-19-global-daily-data.csv"
 output_file = "WHO-COVID-19-global-daily-data_md.csv"
@@ -384,7 +384,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 
 country_file = "Country_Ind_md.csv"
 vaccination_file = "vaccinations.csv"
@@ -459,7 +459,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 
 country_file = "Country_Ind_md.csv"
 epi_file = "epidemiology.csv"
@@ -534,7 +534,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATH
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 input_file = "2021-GHS-Index-April-2022.csv"
 path_input = os.path.join(data_dir, input_file)
 
@@ -586,7 +586,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 
 country_file = "Country_Ind_md.csv"
 ghs_file = "2021-GHS-Index-April-2022.csv"
@@ -671,7 +671,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 
 ict_file = "ict adoption by 100 people.csv"
 ghs_file = "2021-GHS-Index-April-2022_Ind_md.csv"
@@ -787,7 +787,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 target_file = "Country_Ind_md.csv"
 path_target = os.path.join(data_dir, target_file)
 
@@ -833,7 +833,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 target_file = "health_Ind_md.csv"
 path_target = os.path.join(data_dir, target_file)
 
@@ -878,7 +878,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 target_file = "demographics_Ind_md.csv"
 path_target = os.path.join(data_dir, target_file)
 
@@ -923,7 +923,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 target_file = "WHO-COVID-19-global-daily-data_md.csv"
 path_target = os.path.join(data_dir, target_file)
 
@@ -969,7 +969,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 target_file = "ict adoption by 100 people.csv"
 path_target = os.path.join(data_dir, target_file)
 
@@ -1015,7 +1015,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 target_file = "2021-GHS-Index-April-2022_Ind_md.csv"
 path_target = os.path.join(data_dir, target_file)
 
@@ -1060,7 +1060,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 target_file = "epidemiology_Ind_md.csv"
 path_target = os.path.join(data_dir, target_file)
 
@@ -1106,7 +1106,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 target_file = "vaccinations_Ind_md.csv"
 path_target = os.path.join(data_dir, target_file)
 
@@ -1152,7 +1152,7 @@ import pandas as pd
 # ==========================================
 # 1. DEFINE SHARED WORKSPACE PATHS
 # ==========================================
-data_dir = '/content/drive/MyDrive/DS_IsTheWorldReadyForTheNextPandemic/DATASET TO USE/'
+data_dir = './data/'
 target_file = "ICT_GHS_Ind_md.csv"
 path_target = os.path.join(data_dir, target_file)
 
